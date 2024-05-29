@@ -35,7 +35,9 @@ AAC 550A and Zoom
 The research data is being stored on the pminformatics server on the DATA-3 volume. An RIA storage has been created at this location:
 
 ```sh
-datalad create-sibling-ria --new-store-ok -s datalad-ria --existing reconfigure ria+file:///media/pranav/DATA-3/Courses/research-data
+datalad create-sibling-ria --new-store-ok -s datalad-ria --existing reconfigure ria+file:///media/pranav/DATA-3/Courses/research-data-management
+
+datalad siblings add -s origin --url git@github.com:pranavmishra90/courses-by-mishra-research-data-management.git --publish-depends datalad-ria 
 ```
 
 ## Instructions

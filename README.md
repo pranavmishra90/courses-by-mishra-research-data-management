@@ -15,11 +15,11 @@ AAC 550A and Zoom
 
 ## Learning Objectives
 
-•	What makes research data storage efficient and compliant with the new NIH guidelines
-•	Building a hierarchy to separate raw, analysis, and publication-level research data
-•	Automating steps between the “mundane tasks” and “complex analysis” to save time and improve reproducibility
-•	How to access and utilize Rush’s Microsoft 365 cloud storage for 25 TB of storage, per project, for free
-•	2nd-hour Interactive Session - bring your laptop if you’d like to showcase your setup or get help improving your project!
+- What makes research data storage efficient and compliant with the new NIH guidelines
+- Building a hierarchy to separate raw, analysis, and publication-level research data
+- Automating steps between the “mundane tasks” and “complex analysis” to save time and improve reproducibility
+- How to access and utilize Rush’s Microsoft 365 cloud storage for 25 TB of storage, per project, for free
+- 2nd-hour Interactive Session - bring your laptop if you’d like to showcase your setup or get help improving your project!
 
 
 ## Repository structure
@@ -55,7 +55,10 @@ You can open each jupyter notebook file individually and see how the code runs. 
 ```sh
 conda activate researchdata
 
-datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
+datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/timely_effective.sh'
+
+# Bariatric dataset (requires raw data not available on GitHub)
+# datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
 ```
 
 

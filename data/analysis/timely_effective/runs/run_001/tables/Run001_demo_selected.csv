@@ -1,0 +1,21 @@
+,Facility ID,Facility Name,City/Town,State,ZIP Code,County/Parish,Measure ID,Measure Name,Compared to National,Score,Footnote,Start Date,End Date
+44777,140213,SILVER CROSS HOSPITAL  AND MEDICAL CENTERS,NEW LENOX,IL,60451,WILL,HAI_5_SIR,MRSA Bacteremia,No Different than National Benchmark,0.746,,2022-07-01,2023-06-30
+47168,141341,PANA COMMUNITY HOSPITAL,PANA,IL,62557,CHRISTIAN,HAI_2_DOPC,Catheter Associated Urinary Tract Infections (ICU + select Wards): Number of Urinary Catheter Days,Not Available,,5,2022-07-01,2023-06-30
+42242,140063,RUSH OAK PARK HOSPITAL,OAK PARK,IL,60304,COOK,HAI_3_DOPC,SSI - Colon Surgery: Number of Procedures,Not Available,28.0,,2022-07-01,2023-06-30
+41699,140029,COPLEY MEMORIAL HOSPITAL,AURORA,IL,60504,KANE,HAI_2_SIR,Catheter Associated Urinary Tract Infections (ICU + select Wards),No Different than National Benchmark,0.335,,2022-07-01,2023-06-30
+42317,140065,ADVENTIST LA GRANGE MEMORIAL HOSPITAL,LA GRANGE,IL,60525,COOK,HAI_3_SIR,SSI - Colon Surgery,No Different than National Benchmark,0.0,,2022-07-01,2023-06-30
+43902,140164,MEMORIAL HOSPITAL OF CARBONDALE,CARBONDALE,IL,62901,JACKSON,HAI_4_CILOWER,SSI - Abdominal Hysterectomy: Lower Confidence Limit,Not Available,,13,2022-07-01,2023-06-30
+43620,140147,CARLE RICHLAND MEMORIAL HOSPITAL,OLNEY,IL,62450,RICHLAND,HAI_5_CILOWER,MRSA Bacteremia: Lower Confidence Limit,Not Available,,13,2022-07-01,2023-06-30
+45443,140289,ANDERSON HOSPITAL,MARYVILLE,IL,62062,MADISON,HAI_2_SIR,Catheter Associated Urinary Tract Infections (ICU + select Wards),Better than the National Benchmark,0.0,,2022-07-01,2023-06-30
+43067,140115,THOREK MEMORIAL HOSPITAL,CHICAGO,IL,60613,COOK,HAI_2_SIR,Catheter Associated Urinary Tract Infections (ICU + select Wards),Not Available,,13,2022-07-01,2023-06-30
+44617,140208,ADVOCATE CHRIST HOSPITAL & MEDICAL CENTER,OAK LAWN,IL,60453,COOK,HAI_3_CIUPPER,SSI - Colon Surgery: Upper Confidence Limit,Worse than the National Benchmark,3.246,,2022-07-01,2023-06-30
+43267,140122,ADVENTIST HINSDALE HOSPITAL,HINSDALE,IL,60521,DU PAGE,HAI_6_CIUPPER,Clostridium Difficile (C.Diff): Upper Confidence Limit,Better than the National Benchmark,0.641,,2022-07-01,2023-06-30
+45877,141304,"GENESIS MEDICAL CENTER, ALEDO",ALEDO,IL,61231,MERCER,HAI_3_CIUPPER,SSI - Colon Surgery: Upper Confidence Limit,Not Available,,5,2022-07-01,2023-06-30
+43222,140120,PEKIN MEMORIAL HOSPITAL,PEKIN,IL,61554,TAZEWELL,HAI_4_NUMERATOR,SSI - Abdominal Hysterectomy: Observed Cases,Not Available,,12,2022-07-01,2023-06-30
+43039,140114,SWEDISH HOSPITAL,CHICAGO,IL,60625,COOK,HAI_4_CIUPPER,SSI - Abdominal Hysterectomy: Upper Confidence Limit,Not Available,,"13, 28",2022-07-01,2023-06-30
+42814,140095,SAINT ANTHONY HOSPITAL,CHICAGO,IL,60623,COOK,HAI_2_NUMERATOR,Catheter Associated Urinary Tract Infections (ICU + select Wards): Observed Cases,No Different than National Benchmark,0.0,,2022-07-01,2023-06-30
+42019,14004F,VA ILLIANA HEALTHCARE SYSTEM - DANVILLE,DANVILLE,IL,61832,VERMILION,HAI_2_CIUPPER,Catheter Associated Urinary Tract Infections (ICU + select Wards): Upper Confidence Limit,Not Available,,13,2022-07-01,2023-06-30
+44042,140174,PRESENCE MERCY MEDICAL CENTER,AURORA,IL,60506,KANE,HAI_3_DOPC,SSI - Colon Surgery: Number of Procedures,Not Available,33.0,,2022-07-01,2023-06-30
+46490,141322,ABRAHAM LINCOLN MEMORIAL HOSPITAL,LINCOLN,IL,62656,LOGAN,HAI_3_DOPC,SSI - Colon Surgery: Number of Procedures,Not Available,,5,2022-07-01,2023-06-30
+42599,140084,VISTA MEDICAL CENTER EAST,WAUKEGAN,IL,60085,LAKE,HAI_2_SIR,Catheter Associated Urinary Tract Infections (ICU + select Wards),No Different than National Benchmark,0.0,,2022-07-01,2023-06-30
+44395,140189,SARAH BUSH LINCOLN HEALTH CENTER,MATTOON,IL,61938,COLES,HAI_2_CIUPPER,Catheter Associated Urinary Tract Infections (ICU + select Wards): Upper Confidence Limit,No Different than National Benchmark,3.248,,2022-07-01,2023-06-30

@@ -11,6 +11,7 @@ metadata/objects/** annex.largefile=(anything)
 **/code
 **/doc
 **/deploy
+**/notebook
 
 # Filetypes to exclude from git-annex
 #------------------------------------------------

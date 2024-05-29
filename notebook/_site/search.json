@@ -242,7 +242,7 @@
     "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html",
     "title": "Bariatric Run Notebook",
     "section": "",
-    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 002 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/notebooks/",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 002 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/notebooks/\nFiltering for CPT: ['43644', '43755']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
     "crumbs": [
       "Home",
       "Data",
@@ -259,7 +259,7 @@
     "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#import-data",
     "title": "Bariatric Run Notebook",
     "section": "Import Data",
-    "text": "Import Data",
+    "text": "Import Data\n\n\nStatistics for Main dataframe\nThere are 1,021,936 cases with 245 variables (columns).",
     "crumbs": [
       "Home",
       "Data",
@@ -293,7 +293,7 @@
     "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#generate-figures-and-tables",
     "title": "Bariatric Run Notebook",
     "section": "Generate Figures and Tables",
-    "text": "Generate Figures and Tables\nAge",
+    "text": "Generate Figures and Tables\nAge\n\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//demographics/Run002_Demographics-Donor_Sex.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//demographics/Run002_Demographics-Race.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//demographics/Run002_Demographics-Ethnicity.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg'",
     "crumbs": [
       "Home",
       "Data",
@@ -457,7 +457,7 @@
     "href": "data/analysis/bariatric/runs/run_003/readme.html",
     "title": "Run 003 Summary",
     "section": "",
-    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644', '43755']\nYear Start: 2018\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun003_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun003_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun003_Demographics-Race.jpg\n\n\n\n\n\nRun003_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun003_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 003:\n\nnotebooks/Run003_analysis.ipynb\nfigures/demographics/Run003_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run003_Demographics-Donor_Sex.jpg\nfigures/demographics/Run003_Demographics-Race.jpg\nfigures/demographics/Run003_Demographics-Ethnicity.jpg\nfigures/surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run003_main_dataset.parquet\ntables/Run003_demo_selected.csv",
+    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644', '43755']\nYear Start: 2018\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun003_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun003_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun003_Demographics-Race.jpg\n\n\n\n\n\nRun003_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun003_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 003:\n\nreadme.md\nreadme.html\nreadme-gfm.md\nreadme.pdf\nfigures/demographics/Run003_Demographics-Donor_Sex.jpg\nfigures/demographics/Run003_Demographics-Ethnicity.jpg\nfigures/demographics/Run003_Demographics-Race.jpg\nfigures/demographics/Run003_Demographics_Age_at_Surgery.jpg\nfigures/surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg\nnotebooks/Run003_analysis.ipynb\nnotebooks/Run003_analysis.html\nnotebooks/Run003_analysis.pdf\ntables/Run003_demo_selected.csv\ntables/Run003_main_dataset.parquet",
     "crumbs": [
       "Home",
       "Data",
@@ -505,7 +505,7 @@
     "href": "data/analysis/bariatric/runs/run_003/readme.html#figures",
     "title": "Run 003 Summary",
     "section": "",
-    "text": "Run003_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun003_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun003_Demographics-Race.jpg\n\n\n\n\n\nRun003_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun003_Sx-OPLENGTH_PREVSURG.jpg",
+    "text": "Run003_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun003_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun003_Demographics-Race.jpg\n\n\n\n\n\nRun003_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun003_Sx-OPLENGTH_PREVSURG.jpg",
     "crumbs": [
       "Home",
       "Data",
@@ -521,7 +521,7 @@
     "href": "data/analysis/bariatric/runs/run_003/readme.html#files",
     "title": "Run 003 Summary",
     "section": "",
-    "text": "The following files were generated from Run 003:\n\nnotebooks/Run003_analysis.ipynb\nfigures/demographics/Run003_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run003_Demographics-Donor_Sex.jpg\nfigures/demographics/Run003_Demographics-Race.jpg\nfigures/demographics/Run003_Demographics-Ethnicity.jpg\nfigures/surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run003_main_dataset.parquet\ntables/Run003_demo_selected.csv",
+    "text": "The following files were generated from Run 003:\n\nreadme.md\nreadme.html\nreadme-gfm.md\nreadme.pdf\nfigures/demographics/Run003_Demographics-Donor_Sex.jpg\nfigures/demographics/Run003_Demographics-Ethnicity.jpg\nfigures/demographics/Run003_Demographics-Race.jpg\nfigures/demographics/Run003_Demographics_Age_at_Surgery.jpg\nfigures/surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg\nnotebooks/Run003_analysis.ipynb\nnotebooks/Run003_analysis.html\nnotebooks/Run003_analysis.pdf\ntables/Run003_demo_selected.csv\ntables/Run003_main_dataset.parquet",
     "crumbs": [
       "Home",
       "Data",
@@ -537,7 +537,7 @@
     "href": "data/analysis/bariatric/runs/run_001/readme.html",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644']\nYear Start: 2021\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun001_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun001_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun001_Demographics-Race.jpg\n\n\n\n\n\nRun001_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun001_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 001:\n\nnotebooks/Run001_analysis.ipynb\nfigures/demographics/Run001_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run001_Demographics-Donor_Sex.jpg\nfigures/demographics/Run001_Demographics-Race.jpg\nfigures/demographics/Run001_Demographics-Ethnicity.jpg\nfigures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv",
+    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644']\nYear Start: 2018\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun001_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun001_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun001_Demographics-Race.jpg\n\n\n\n\n\nRun001_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun001_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 001:\n\nreadme.md\nreadme.html\nreadme-gfm.md\nreadme.tex\nreadme.log\nreadme.aux\nreadme.toc\nreadme.pdf\nfigures/demographics/Run001_Demographics-Donor_Sex.jpg\nfigures/demographics/Run001_Demographics-Ethnicity.jpg\nfigures/demographics/Run001_Demographics-Race.jpg\nfigures/demographics/Run001_Demographics_Age_at_Surgery.jpg\nfigures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg\nnotebooks/Run001_analysis.ipynb\ntables/Run001_demo_selected.csv\ntables/Run001_main_dataset.parquet",
     "crumbs": [
       "Home",
       "Data",
@@ -553,7 +553,7 @@
     "href": "data/analysis/bariatric/runs/run_001/readme.html#run-parameters",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "CPT Codes: ['43644']\nYear Start: 2021\nYear Stop: 2022",
+    "text": "CPT Codes: ['43644']\nYear Start: 2018\nYear Stop: 2022",
     "crumbs": [
       "Home",
       "Data",
@@ -585,7 +585,7 @@
     "href": "data/analysis/bariatric/runs/run_001/readme.html#figures",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "Run001_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun001_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun001_Demographics-Race.jpg\n\n\n\n\n\nRun001_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun001_Sx-OPLENGTH_PREVSURG.jpg",
+    "text": "Run001_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun001_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun001_Demographics-Race.jpg\n\n\n\n\n\nRun001_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun001_Sx-OPLENGTH_PREVSURG.jpg",
     "crumbs": [
       "Home",
       "Data",
@@ -601,7 +601,7 @@
     "href": "data/analysis/bariatric/runs/run_001/readme.html#files",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "The following files were generated from Run 001:\n\nnotebooks/Run001_analysis.ipynb\nfigures/demographics/Run001_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run001_Demographics-Donor_Sex.jpg\nfigures/demographics/Run001_Demographics-Race.jpg\nfigures/demographics/Run001_Demographics-Ethnicity.jpg\nfigures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv",
+    "text": "The following files were generated from Run 001:\n\nreadme.md\nreadme.html\nreadme-gfm.md\nreadme.tex\nreadme.log\nreadme.aux\nreadme.toc\nreadme.pdf\nfigures/demographics/Run001_Demographics-Donor_Sex.jpg\nfigures/demographics/Run001_Demographics-Ethnicity.jpg\nfigures/demographics/Run001_Demographics-Race.jpg\nfigures/demographics/Run001_Demographics_Age_at_Surgery.jpg\nfigures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg\nnotebooks/Run001_analysis.ipynb\ntables/Run001_demo_selected.csv\ntables/Run001_main_dataset.parquet",
     "crumbs": [
       "Home",
       "Data",
@@ -684,7 +684,7 @@
     "href": "data/analysis/bariatric/runs/run_002/readme.html",
     "title": "Run 002 Summary",
     "section": "",
-    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644', '43755']\nYear Start: 2021\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun002_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun002_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun002_Demographics-Race.jpg\n\n\n\n\n\nRun002_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun002_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 002:\n\nnotebooks/Run002_analysis.ipynb\nfigures/demographics/Run002_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run002_Demographics-Donor_Sex.jpg\nfigures/demographics/Run002_Demographics-Race.jpg\nfigures/demographics/Run002_Demographics-Ethnicity.jpg\nfigures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run002_main_dataset.parquet\ntables/Run002_demo_selected.csv",
+    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644', '43755']\nYear Start: 2021\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun002_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun002_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun002_Demographics-Race.jpg\n\n\n\n\n\nRun002_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun002_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 002:\n\nreadme.md\nreadme.html\nreadme-gfm.md\nreadme.pdf\nfigures/demographics/Run002_Demographics-Donor_Sex.jpg\nfigures/demographics/Run002_Demographics-Ethnicity.jpg\nfigures/demographics/Run002_Demographics-Race.jpg\nfigures/demographics/Run002_Demographics_Age_at_Surgery.jpg\nfigures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg\nnotebooks/Run002_analysis.ipynb\nnotebooks/Run002_analysis.html\nnotebooks/Run002_analysis.pdf\ntables/Run002_demo_selected.csv\ntables/Run002_main_dataset.parquet",
     "crumbs": [
       "Home",
       "Data",
@@ -732,7 +732,7 @@
     "href": "data/analysis/bariatric/runs/run_002/readme.html#figures",
     "title": "Run 002 Summary",
     "section": "",
-    "text": "Run002_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun002_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun002_Demographics-Race.jpg\n\n\n\n\n\nRun002_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun002_Sx-OPLENGTH_PREVSURG.jpg",
+    "text": "Run002_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun002_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun002_Demographics-Race.jpg\n\n\n\n\n\nRun002_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun002_Sx-OPLENGTH_PREVSURG.jpg",
     "crumbs": [
       "Home",
       "Data",
@@ -748,7 +748,7 @@
     "href": "data/analysis/bariatric/runs/run_002/readme.html#files",
     "title": "Run 002 Summary",
     "section": "",
-    "text": "The following files were generated from Run 002:\n\nnotebooks/Run002_analysis.ipynb\nfigures/demographics/Run002_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run002_Demographics-Donor_Sex.jpg\nfigures/demographics/Run002_Demographics-Race.jpg\nfigures/demographics/Run002_Demographics-Ethnicity.jpg\nfigures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run002_main_dataset.parquet\ntables/Run002_demo_selected.csv",
+    "text": "The following files were generated from Run 002:\n\nreadme.md\nreadme.html\nreadme-gfm.md\nreadme.pdf\nfigures/demographics/Run002_Demographics-Donor_Sex.jpg\nfigures/demographics/Run002_Demographics-Ethnicity.jpg\nfigures/demographics/Run002_Demographics-Race.jpg\nfigures/demographics/Run002_Demographics_Age_at_Surgery.jpg\nfigures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg\nnotebooks/Run002_analysis.ipynb\nnotebooks/Run002_analysis.html\nnotebooks/Run002_analysis.pdf\ntables/Run002_demo_selected.csv\ntables/Run002_main_dataset.parquet",
     "crumbs": [
       "Home",
       "Data",
@@ -952,7 +952,7 @@
     "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html",
     "title": "Bariatric Run Notebook",
     "section": "",
-    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 001 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/notebooks/\nFiltering for CPT: ['43644']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
+    "text": "An Exception was encountered at ‘In [19]’.\nThe computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 001 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/notebooks/ A text directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/text/\nFiltering for CPT: ['43644']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
     "crumbs": [
       "Home",
       "Data",
@@ -1020,7 +1020,7 @@
     "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#save-the-run-dataset",
     "title": "Bariatric Run Notebook",
     "section": "Save the run dataset",
-    "text": "Save the run dataset",
+    "text": "Save the run dataset\nExecution using papermill encountered an exception here and stopped:\n\nPermissionError: [Errno 13] Permission denied: '/home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/tables///Run001_main_dataset.parquet'",
     "crumbs": [
       "Home",
       "Data",
@@ -1037,7 +1037,7 @@
     "href": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html",
     "title": "Bariatric Run Notebook",
     "section": "",
-    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 003 A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/notebooks/\nFiltering for CPT: ['43644', '43755']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 003 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/notebooks/\nFiltering for CPT: ['43644', '43755']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
     "crumbs": [
       "Home",
       "Data",

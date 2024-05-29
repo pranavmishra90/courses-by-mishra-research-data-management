@@ -22,13 +22,13 @@ Generated: 2024-05-29
 
 ## Figures
 
-![Run002_Demographics_Age_at_Surgery.jpg](figures/demographics/Run002_Demographics_Age_at_Surgery.jpg)
-
 ![Run002_Demographics-Donor_Sex.jpg](figures/demographics/Run002_Demographics-Donor_Sex.jpg)
+
+![Run002_Demographics-Ethnicity.jpg](figures/demographics/Run002_Demographics-Ethnicity.jpg)
 
 ![Run002_Demographics-Race.jpg](figures/demographics/Run002_Demographics-Race.jpg)
 
-![Run002_Demographics-Ethnicity.jpg](figures/demographics/Run002_Demographics-Ethnicity.jpg)
+![Run002_Demographics_Age_at_Surgery.jpg](figures/demographics/Run002_Demographics_Age_at_Surgery.jpg)
 
 ![Run002_Sx-OPLENGTH_PREVSURG.jpg](figures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg)
 
@@ -36,11 +36,17 @@ Generated: 2024-05-29
 
 The following files were generated from Run 002:
 
-- notebooks/Run002_analysis.ipynb
-- figures/demographics/Run002_Demographics_Age_at_Surgery.jpg
+- readme.md
+- readme.html
+- readme-gfm.md
+- readme.pdf
 - figures/demographics/Run002_Demographics-Donor_Sex.jpg
-- figures/demographics/Run002_Demographics-Race.jpg
 - figures/demographics/Run002_Demographics-Ethnicity.jpg
+- figures/demographics/Run002_Demographics-Race.jpg
+- figures/demographics/Run002_Demographics_Age_at_Surgery.jpg
 - figures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg
-- tables/Run002_main_dataset.parquet
+- notebooks/Run002_analysis.ipynb
+- notebooks/Run002_analysis.html
+- notebooks/Run002_analysis.pdf
 - tables/Run002_demo_selected.csv
+- tables/Run002_main_dataset.parquet

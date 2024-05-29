@@ -1,41 +1,64 @@
 [
   {
-    "objectID": "data/raw/mbsa-qip/readme.html",
-    "href": "data/raw/mbsa-qip/readme.html",
-    "title": "About the dataset: MBSA-QIP",
+    "objectID": "notebook/CHANGELOG.html",
+    "href": "notebook/CHANGELOG.html",
+    "title": "CHANGELOG",
     "section": "",
-    "text": "Metabolic and bariatric surgery accreditation and quality improvement program (MBSA-QIP) is a dataset available by request / application to the American College of Surgeons (ACS). You may request your own copy of the raw data by completing the ACS Form for the MBSAQIP Participant Use Data File (PUF).\nPlease note: This GitHub repository does not contain any raw data (PUF files provided by the ACS). This repository is a datalad dataset (repository) which is only tracking the presence of the data files and any modifications made by the authorized user, Pranav Mishra (Rush University), for the purpose of this seminar. No other use has access nor is permitted to have access without completing the PUF request form above. All raw data (PUF files) are accessible only to the authorized user on the university’s IT-approved infrastructure.\n\n\n\nAmerican College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "text": "Using the docs folder rather than a GH action\nMove CHANGELOG into the notebook\n\n\n\n\nFix README, CHANGELOG, _quarto.yml\n\n\n\nInitializing the repository without any analysis performed",
+    "crumbs": [
+      "Home",
+      "Notebook",
+      "CHANGELOG"
+    ]
+  },
+  {
+    "objectID": "notebook/CHANGELOG.html#v0.0.3---notebook-render-location",
+    "href": "notebook/CHANGELOG.html#v0.0.3---notebook-render-location",
+    "title": "CHANGELOG",
+    "section": "",
+    "text": "Using the docs folder rather than a GH action\nMove CHANGELOG into the notebook",
+    "crumbs": [
+      "Home",
+      "Notebook",
+      "CHANGELOG"
+    ]
+  },
+  {
+    "objectID": "notebook/CHANGELOG.html#v0.0.2---migration-fixes",
+    "href": "notebook/CHANGELOG.html#v0.0.2---migration-fixes",
+    "title": "CHANGELOG",
+    "section": "",
+    "text": "Fix README, CHANGELOG, _quarto.yml",
+    "crumbs": [
+      "Home",
+      "Notebook",
+      "CHANGELOG"
+    ]
+  },
+  {
+    "objectID": "notebook/CHANGELOG.html#v0.0.1---migration-from-temporary-repository",
+    "href": "notebook/CHANGELOG.html#v0.0.1---migration-from-temporary-repository",
+    "title": "CHANGELOG",
+    "section": "",
+    "text": "Initializing the repository without any analysis performed",
+    "crumbs": [
+      "Home",
+      "Notebook",
+      "CHANGELOG"
+    ]
+  },
+  {
+    "objectID": "data/raw/cms/readme.html",
+    "href": "data/raw/cms/readme.html",
+    "title": "About the dataset: CMS Data Sources",
+    "section": "",
+    "text": "About the dataset: CMS Data Sources\nHealthcare_Associated_Infections-Hospital.csv:1\nTimely_and_Effective_Care-Hospital.csv:2\n\nReferences\n\n\n1. Centers for Medicare and Medicaid Services. Timely and effective care - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/yv7e-xc69#data-table\n\n\n2. Centers for Medicare and Medicaid Services. Healthcare associated infections - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/77hc-ibv8#data-table",
     "crumbs": [
       "Home",
       "Data",
       "Raw",
-      "Mbsa Qip",
-      "About the dataset: MBSA-QIP"
-    ]
-  },
-  {
-    "objectID": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
-    "href": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
-    "title": "About the dataset: MBSA-QIP",
-    "section": "",
-    "text": "American College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
-    "crumbs": [
-      "Home",
-      "Data",
-      "Raw",
-      "Mbsa Qip",
-      "About the dataset: MBSA-QIP"
-    ]
-  },
-  {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "v0.0.2 - Migration fixes",
-    "section": "",
-    "text": "v0.0.2 - Migration fixes\nFix README, CHANGELOG, _quarto.yml\n\n\nv0.0.1 - Migration from temporary repository\nInitializing the repository without any analysis performed",
-    "crumbs": [
-      "Home",
-      "v0.0.2 - Migration fixes"
+      "Cms",
+      "About the dataset: CMS Data Sources"
     ]
   },
   {
@@ -106,17 +129,122 @@
     ]
   },
   {
-    "objectID": "data/raw/cms/readme.html",
-    "href": "data/raw/cms/readme.html",
-    "title": "About the dataset: CMS Data Sources",
+    "objectID": "data/raw/mbsa-qip/readme.html",
+    "href": "data/raw/mbsa-qip/readme.html",
+    "title": "About the dataset: MBSA-QIP",
     "section": "",
-    "text": "About the dataset: CMS Data Sources\nHealthcare_Associated_Infections-Hospital.csv:1\nTimely_and_Effective_Care-Hospital.csv:2\n\nReferences\n\n\n1. Centers for Medicare and Medicaid Services. Timely and effective care - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/yv7e-xc69#data-table\n\n\n2. Centers for Medicare and Medicaid Services. Healthcare associated infections - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/77hc-ibv8#data-table",
+    "text": "Metabolic and bariatric surgery accreditation and quality improvement program (MBSA-QIP) is a dataset available by request / application to the American College of Surgeons (ACS). You may request your own copy of the raw data by completing the ACS Form for the MBSAQIP Participant Use Data File (PUF).\nPlease note: This GitHub repository does not contain any raw data (PUF files provided by the ACS). This repository is a datalad dataset (repository) which is only tracking the presence of the data files and any modifications made by the authorized user, Pranav Mishra (Rush University), for the purpose of this seminar. No other use has access nor is permitted to have access without completing the PUF request form above. All raw data (PUF files) are accessible only to the authorized user on the university’s IT-approved infrastructure.\n\n\n\nAmerican College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
     "crumbs": [
       "Home",
       "Data",
       "Raw",
-      "Cms",
-      "About the dataset: CMS Data Sources"
+      "Mbsa Qip",
+      "About the dataset: MBSA-QIP"
+    ]
+  },
+  {
+    "objectID": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
+    "href": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
+    "title": "About the dataset: MBSA-QIP",
+    "section": "",
+    "text": "American College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Raw",
+      "Mbsa Qip",
+      "About the dataset: MBSA-QIP"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/bariatric.html#data-processing",
+    "href": "code/jupyter/bariatric.html#data-processing",
+    "title": "Bariatric Run Notebook",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nSubset the data",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/bariatric.html#generate-figures-and-tables",
+    "href": "code/jupyter/bariatric.html#generate-figures-and-tables",
+    "title": "Bariatric Run Notebook",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables\nAge",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/bariatric.html#save-the-run-dataset",
+    "href": "code/jupyter/bariatric.html#save-the-run-dataset",
+    "title": "Bariatric Run Notebook",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/timely_effective.html#parameters",
+    "href": "code/jupyter/timely_effective.html#parameters",
+    "title": "Timely and effective care",
+    "section": "Parameters",
+    "text": "Parameters",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/timely_effective.html#data-processing",
+    "href": "code/jupyter/timely_effective.html#data-processing",
+    "title": "Timely and effective care",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nData Sanitization\n\n\nSubset the data\n\n\nOutlier Analysis",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/timely_effective.html#generate-figures-and-tables",
+    "href": "code/jupyter/timely_effective.html#generate-figures-and-tables",
+    "title": "Timely and effective care",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "code/jupyter/timely_effective.html#save-the-run-dataset",
+    "href": "code/jupyter/timely_effective.html#save-the-run-dataset",
+    "title": "Timely and effective care",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Code",
+      "Jupyter",
+      "Timely and effective care"
     ]
   }
 ]

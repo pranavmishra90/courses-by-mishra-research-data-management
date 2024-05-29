@@ -3,9 +3,9 @@ project:
   output-dir: docs
   render:
     - "README.md"
-    - "!/code/jupyter/redcap.ipynb"
     - "*.qmd"
     - "*.md"
+    - "/code/jupyter/**.ipynb"
     - "/data/**/*.ipynb"
 
 

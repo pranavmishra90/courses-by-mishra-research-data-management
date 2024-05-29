@@ -50,15 +50,35 @@ Generated: 2024-05-29
 
 ## Figures
 
-![Run001_Demographics_Age_at_Surgery.jpg](figures/demographics/Run001_Demographics_Age_at_Surgery.jpg)
-
 ![Run001_Demographics-Donor_Sex.jpg](figures/demographics/Run001_Demographics-Donor_Sex.jpg)
-
-![Run001_Demographics-Race.jpg](figures/demographics/Run001_Demographics-Race.jpg)
 
 ![Run001_Demographics-Ethnicity.jpg](figures/demographics/Run001_Demographics-Ethnicity.jpg)
 
+![Run001_Demographics-Race.jpg](figures/demographics/Run001_Demographics-Race.jpg)
+
+![Run001_Demographics_Age_at_Surgery.jpg](figures/demographics/Run001_Demographics_Age_at_Surgery.jpg)
+
 ![Run001_Sx-OPLENGTH_PREVSURG.jpg](figures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg)
+
+![cell-14-output-1.png](notebooks/Run001_analysis_files/figure-html/cell-14-output-1.png)
+
+![cell-15-output-2.png](notebooks/Run001_analysis_files/figure-html/cell-15-output-2.png)
+
+![cell-16-output-2.png](notebooks/Run001_analysis_files/figure-html/cell-16-output-2.png)
+
+![cell-17-output-2.png](notebooks/Run001_analysis_files/figure-html/cell-17-output-2.png)
+
+![cell-18-output-2.png](notebooks/Run001_analysis_files/figure-html/cell-18-output-2.png)
+
+![cell-14-output-1.png](notebooks/Run001_analysis_files/figure-pdf/cell-14-output-1.png)
+
+![cell-15-output-2.png](notebooks/Run001_analysis_files/figure-pdf/cell-15-output-2.png)
+
+![cell-16-output-2.png](notebooks/Run001_analysis_files/figure-pdf/cell-16-output-2.png)
+
+![cell-17-output-2.png](notebooks/Run001_analysis_files/figure-pdf/cell-17-output-2.png)
+
+![cell-18-output-2.png](notebooks/Run001_analysis_files/figure-pdf/cell-18-output-2.png)
 
 
 
@@ -67,14 +87,33 @@ Generated: 2024-05-29
 
 The following files were generated from Run 001:
 
-- notebooks/Run001_analysis.ipynb
-- figures/demographics/Run001_Demographics_Age_at_Surgery.jpg
+- readme.md
+- readme.html
+- readme-gfm.md
+- readme.pdf
 - figures/demographics/Run001_Demographics-Donor_Sex.jpg
-- figures/demographics/Run001_Demographics-Race.jpg
 - figures/demographics/Run001_Demographics-Ethnicity.jpg
+- figures/demographics/Run001_Demographics-Race.jpg
+- figures/demographics/Run001_Demographics_Age_at_Surgery.jpg
 - figures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg
-- tables/Run001_main_dataset.parquet
+- notebooks/Run001_analysis.ipynb
+- notebooks/Run001_analysis.html
+- notebooks/Run001_analysis.tex
+- notebooks/Run001_analysis.aux
+- notebooks/Run001_analysis.toc
+- notebooks/Run001_analysis.log
+- notebooks/Run001_analysis_files/figure-html/cell-14-output-1.png
+- notebooks/Run001_analysis_files/figure-html/cell-15-output-2.png
+- notebooks/Run001_analysis_files/figure-html/cell-16-output-2.png
+- notebooks/Run001_analysis_files/figure-html/cell-17-output-2.png
+- notebooks/Run001_analysis_files/figure-html/cell-18-output-2.png
+- notebooks/Run001_analysis_files/figure-pdf/cell-14-output-1.png
+- notebooks/Run001_analysis_files/figure-pdf/cell-15-output-2.png
+- notebooks/Run001_analysis_files/figure-pdf/cell-16-output-2.png
+- notebooks/Run001_analysis_files/figure-pdf/cell-17-output-2.png
+- notebooks/Run001_analysis_files/figure-pdf/cell-18-output-2.png
 - tables/Run001_demo_selected.csv
+- tables/Run001_main_dataset.parquet
 
 
 

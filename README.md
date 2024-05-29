@@ -55,10 +55,10 @@ You can open each jupyter notebook file individually and see how the code runs. 
 ```sh
 conda activate researchdata
 
-datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/timely_effective.sh'
+datalad run --dry-run basic -i data/raw/cms -o data/analysis/bariatric/runs -o notebook/ --explicit --expand both -m "CMS Analysis: Multiple runs via Datalad" 'code/shell/papermill/timely_effective.sh'
 
 # Bariatric dataset (requires raw data not available on GitHub)
-# datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
+# datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs -o notebook/ --explicit --expand both -m "MBSAQIP Analysis: Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
 ```
 
 

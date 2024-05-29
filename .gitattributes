@@ -36,6 +36,11 @@ metadata/objects/** annex.largefile=(anything)
 # Include in git-annex
 #------------------------------------------------
 
+# Data files
+*.parquet annex.largefiles=((largerthan=0))
+*.exe annex.largefiles=((largerthan=0))
+*.sav annex.largefiles=((largerthan=0))
+
 # All binary files
 * annex.largefiles=((mimeencoding=binary)and(largerthan=10MB))
 

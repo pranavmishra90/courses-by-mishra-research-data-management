@@ -1,0 +1,5 @@
+# All files in this directory should be stored in git directly
+#------------------------------------------------
+* annex.backend=MD5E
+**/.git* annex.largefiles=nothing
+* annex.largefiles=nothing

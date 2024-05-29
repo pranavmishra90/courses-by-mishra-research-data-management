@@ -1,0 +1,85 @@
+---  
+title: References
+subtitle: "Research Data Management Repository"  
+date: last-modified  
+date-format: full  
+author:  
+  - name:  
+      given: Pranav Kumar  
+      family: Mishra  
+    affiliations:  
+      - ref: rushsurg  
+      - ref: rushortho  
+    corresponding: true  
+    url: https://drpranavmishra.com  
+    email: pranav_k_mishra@rush.edu  
+    orcid: 0000-0001-5219-6269    
+    role: "Post Doctoral Research Fellow"  
+format:  
+  html:  
+    code-fold: true 
+  gfm:
+    preview-mode: raw
+    
+execute:   
+  enabled: true  
+  echo: false  
+  output: asis #true  
+---
+
+```{python}
+import os, sys, socket
+repository_root = "/home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management"
+
+# Get the computer name and the repository root
+
+# Get the name of the computer, then save it to an environment variable
+os.environ['computer_name']= socket.gethostname()
+
+if len(os.environ['computer_name']) == 12:
+    if os.path.exists('/home/coder/work'):
+        
+        is_docker = 'True'
+        os.environ['is_docker']=is_docker
+        os.chdir('/home/coder/work')
+        os.environ['repo_root']=os.getcwd()
+        print('This is a docker environment')
+
+    
+   
+elif os.path.exists(repository_root) == True:
+    is_docker = 'False'
+    os.environ['is_docker'] = is_docker
+    os.environ['repo_root'] = repository_root
+
+else:
+    is_docker = 'False'
+    os.environ['is_docker'] = is_docker
+    print(f"Error finding the repository root for computer {os.environ['computer_name']}")
+
+os.chdir(os.environ['repo_root'])
+
+# Open the .bib file and read its contents
+with open('notebook/references.bib', 'r') as bibfile:
+    bib_data = bibfile.read()
+
+entries = bib_data.split('@')
+list_citations = ""
+
+for entry in entries[1:]:
+    start_index = entry.find('{') + 1
+    end_index = entry.find(',')
+
+    # Extract the shortname
+    if start_index != -1 and end_index != -1:
+        shortname = "@" + entry[start_index:end_index].strip()
+        list_citations += shortname + " "
+
+print(list_citations)
+
+```
+
+### References
+
+::: {#refs}
+:::

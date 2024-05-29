@@ -1,0 +1,21 @@
+,Facility ID,Facility Name,City/Town,State,ZIP Code,County/Parish,Measure ID,Measure Name,Compared to National,Score,Footnote,Start Date,End Date
+41353,140002,ALTON MEMORIAL HOSPITAL,ALTON,IL,62002,MADISON,HAI_5_CIUPPER,MRSA Bacteremia: Upper Confidence Limit,No Different than National Benchmark,1.602,,2022-07-01,2023-06-30
+42009,140049,WEST SUBURBAN MEDICAL CENTER,OAK PARK,IL,60302,COOK,HAI_6_ELIGCASES,Clostridium Difficile (C.Diff): Predicted Cases,No Different than National Benchmark,16.721,,2022-07-01,2023-06-30
+47545,141351,CLAY COUNTY HOSPITAL,FLORA,IL,62839,CLAY,HAI_5_CIUPPER,MRSA Bacteremia: Upper Confidence Limit,Not Available,,13,2022-07-01,2023-06-30
+42618,140084,VISTA MEDICAL CENTER EAST,WAUKEGAN,IL,60085,LAKE,HAI_6_CILOWER,Clostridium Difficile (C.Diff): Lower Confidence Limit,No Different than National Benchmark,0.364,,2022-07-01,2023-06-30
+43684,140150,UNIVERSITY OF ILLINOIS HOSPITAL AND CLINICS,CHICAGO,IL,60612,COOK,HAI_3_NUMERATOR,SSI - Colon Surgery: Observed Cases,No Different than National Benchmark,2.0,,2022-07-01,2023-06-30
+43140,140117,AMITA HEALTH RESURRECTION MEDICAL CENTER,CHICAGO,IL,60631,COOK,HAI_3_CILOWER,SSI - Colon Surgery: Lower Confidence Limit,Better than the National Benchmark,,8,2022-07-01,2023-06-30
+46696,141328,HARDIN COUNTY GENERAL HOSPITAL & CLINIC,ROSICLARE,IL,62982,HARDIN,HAI_1_NUMERATOR,Central Line Associated Bloodstream Infection (ICU + select Wards): Observed Cases,Not Available,,12,2022-07-01,2023-06-30
+47137,141340,VALLEY WEST COMMUNITY HOSPITAL,SANDWICH,IL,60548,DE KALB,HAI_3_CIUPPER,SSI - Colon Surgery: Upper Confidence Limit,Not Available,,13,2022-07-01,2023-06-30
+43233,140120,PEKIN MEMORIAL HOSPITAL,PEKIN,IL,61554,TAZEWELL,HAI_6_ELIGCASES,Clostridium Difficile (C.Diff): Predicted Cases,No Different than National Benchmark,1.912,,2022-07-01,2023-06-30
+41689,140029,COPLEY MEMORIAL HOSPITAL,AURORA,IL,60504,KANE,HAI_1_CIUPPER,Central Line Associated Bloodstream Infection (ICU + select Wards): Upper Confidence Limit,No Different than National Benchmark,1.477,,2022-07-01,2023-06-30
+43832,140161,SAINT JAMES HOSPITAL,PONTIAC,IL,61764,LIVINGSTON,HAI_4_DOPC,SSI - Abdominal Hysterectomy: Number of Procedures,Not Available,1.0,,2022-07-01,2023-06-30
+47028,141337,OSF SAINT CLARE MEDICAL CENTER,PRINCETON,IL,61356,BUREAU,HAI_3_CILOWER,SSI - Colon Surgery: Lower Confidence Limit,Not Available,,12,2022-07-01,2023-06-30
+47002,141336,ST JOSEPH'S HOSPITAL,HIGHLAND,IL,62249,MADISON,HAI_4_NUMERATOR,SSI - Abdominal Hysterectomy: Observed Cases,Not Available,,12,2022-07-01,2023-06-30
+44290,140185,MEMORIAL HOSPITAL,BELLEVILLE,IL,62226,ST. CLAIR,HAI_2_NUMERATOR,Catheter Associated Urinary Tract Infections (ICU + select Wards): Observed Cases,No Different than National Benchmark,6.0,,2022-07-01,2023-06-30
+42070,140052,OSF SAINT ANTHONY'S HEALTH CENTER,ALTON,IL,62002,MADISON,HAI_4_NUMERATOR,SSI - Abdominal Hysterectomy: Observed Cases,Not Available,0.0,,2022-07-01,2023-06-30
+46768,141330,HOPEDALE HOSPITAL,HOPEDALE,IL,61747,TAZEWELL,HAI_1_NUMERATOR,Central Line Associated Bloodstream Infection (ICU + select Wards): Observed Cases,Not Available,0.0,,2022-07-01,2023-06-30
+44117,140179,OSF LITTLE COMPANY OF MARY MEDICAL CENTER,EVERGREEN PARK,IL,60805,COOK,HAI_3_SIR,SSI - Colon Surgery,No Different than National Benchmark,1.49,,2022-07-01,2023-06-30
+46771,141330,HOPEDALE HOSPITAL,HOPEDALE,IL,61747,TAZEWELL,HAI_2_CIUPPER,Catheter Associated Urinary Tract Infections (ICU + select Wards): Upper Confidence Limit,Not Available,,13,2022-07-01,2023-06-30
+42292,140064,ST MARY MEDICAL CENTER,GALESBURG,IL,61401,KNOX,HAI_5_NUMERATOR,MRSA Bacteremia: Observed Cases,No Different than National Benchmark,0.0,,2022-07-01,2023-06-30
+46830,141331,MARSHALL BROWNING HOSPITAL,DU QUOIN,IL,62832,PERRY,HAI_6_CILOWER,Clostridium Difficile (C.Diff): Lower Confidence Limit,No Different than National Benchmark,0.711,,2022-07-01,2023-06-30

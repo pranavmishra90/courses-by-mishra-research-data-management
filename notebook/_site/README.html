@@ -4891,7 +4891,13 @@ May 29, 2024 (Wednesday)<br>
 AAC 550A and Zoom</p>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-<p>• What makes research data storage efficient and compliant with the new NIH guidelines • Building a hierarchy to separate raw, analysis, and publication-level research data • Automating steps between the “mundane tasks” and “complex analysis” to save time and improve reproducibility • How to access and utilize Rush’s Microsoft 365 cloud storage for 25 TB of storage, per project, for free • 2nd-hour Interactive Session - bring your laptop if you’d like to showcase your setup or get help improving your project!</p>
+<ul>
+<li>What makes research data storage efficient and compliant with the new NIH guidelines</li>
+<li>Building a hierarchy to separate raw, analysis, and publication-level research data</li>
+<li>Automating steps between the “mundane tasks” and “complex analysis” to save time and improve reproducibility</li>
+<li>How to access and utilize Rush’s Microsoft 365 cloud storage for 25 TB of storage, per project, for free</li>
+<li>2nd-hour Interactive Session - bring your laptop if you’d like to showcase your setup or get help improving your project!</li>
+</ul>
 </section>
 <section id="repository-structure" class="level2">
 <h2 class="anchored" data-anchor-id="repository-structure">Repository structure</h2>
@@ -4923,7 +4929,10 @@ AAC 550A and Zoom</p>
 <p>You can open each jupyter notebook file individually and see how the code runs. Alternatively, the entire analysis can be performed automatically using <code>papermill</code>. The research notebook is generated using <code>quarto</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource sh number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="ex">conda</span> activate researchdata</span>
 <span id="cb3-2"><a href="#cb3-2"></a></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="ex">datalad</span> run <span class="at">--dry-run</span> basic <span class="at">-i</span> data/raw/mbsa-qip <span class="at">-o</span> data/analysis/bariatric/runs <span class="at">--explicit</span> <span class="at">-m</span> <span class="st">&quot;Multiple runs via Datalad&quot;</span> <span class="st">&#39;code/shell/papermill/bariatric.sh&#39;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="ex">datalad</span> run <span class="at">--dry-run</span> basic <span class="at">-i</span> data/raw/cms <span class="at">-o</span> data/analysis/bariatric/runs <span class="at">-o</span> notebook/ <span class="at">--explicit</span> <span class="at">--expand</span> both <span class="at">-m</span> <span class="st">&quot;CMS Analysis: Multiple runs via Datalad&quot;</span> <span class="st">&#39;code/shell/papermill/timely_effective.sh&#39;</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="co"># Bariatric dataset (requires raw data not available on GitHub)</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="co"># datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs -o notebook/ --explicit --expand both -m &quot;MBSAQIP Analysis: Multiple runs via Datalad&quot; &#39;code/shell/papermill/bariatric.sh&#39;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
 </section>

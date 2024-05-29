@@ -30,6 +30,34 @@ AAC 550A and Zoom
   - Analyzed data - processed and analyzed data, generated from the raw data: `/data/analysis`
   - Research output - figures, tables, text, etc. suitable or submitted for publication (abstract, presentation, journal article)
 
+### Datalad archival storage
+
+The research data is being stored on the pminformatics server on the DATA-3 volume. An RIA storage has been created at this location:
+
+```sh
+datalad create-sibling-ria --new-store-ok -s datalad-ria --existing reconfigure ria+file:///media/pranav/DATA-3/Courses/research-data
+```
+
+## Instructions
+
+### Creating the python environment with conda
+
+```sh
+conda env create -f code/python/environment.yml
+```
+
+### Running the code
+
+You can open each jupyter notebook file individually and see how the code runs. Alternatively, the entire analysis can be performed automatically using `papermill`. The research notebook is generated using `quarto`.
+
+```sh
+conda activate researchdata
+
+datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
+```
+
+
+
 ---
 ## About this dataset
 

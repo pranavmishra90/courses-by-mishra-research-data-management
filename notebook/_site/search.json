@@ -1,30 +1,237 @@
 [
   {
-    "objectID": "data/raw/mbsa-qip/readme.html",
-    "href": "data/raw/mbsa-qip/readme.html",
-    "title": "About the dataset: MBSA-QIP",
+    "objectID": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html",
+    "href": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html",
+    "title": "Timely and effective care",
     "section": "",
-    "text": "Metabolic and bariatric surgery accreditation and quality improvement program (MBSA-QIP) is a dataset available by request / application to the American College of Surgeons (ACS). You may request your own copy of the raw data by completing the ACS Form for the MBSAQIP Participant Use Data File (PUF).\nPlease note: This GitHub repository does not contain any raw data (PUF files provided by the ACS). This repository is a datalad dataset (repository) which is only tracking the presence of the data files and any modifications made by the authorized user, Pranav Mishra (Rush University), for the purpose of this seminar. No other use has access nor is permitted to have access without completing the PUF request form above. All raw data (PUF files) are accessible only to the authorized user on the university’s IT-approved infrastructure.\n\n\n\nAmerican College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management",
     "crumbs": [
       "Home",
       "Data",
-      "Raw",
-      "Mbsa Qip",
-      "About the dataset: MBSA-QIP"
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Timely and effective care"
     ]
   },
   {
-    "objectID": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
-    "href": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
-    "title": "About the dataset: MBSA-QIP",
+    "objectID": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#import-data",
+    "href": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#import-data",
+    "title": "Timely and effective care",
+    "section": "Import Data",
+    "text": "Import Data\n\nParserError: Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#parameters",
+    "href": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#parameters",
+    "title": "Timely and effective care",
+    "section": "Parameters",
+    "text": "Parameters",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#data-processing",
+    "href": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#data-processing",
+    "title": "Timely and effective care",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nData Sanitization\n\n\nSubset the data\n\n\nOutlier Analysis",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#generate-figures-and-tables",
+    "href": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#generate-figures-and-tables",
+    "title": "Timely and effective care",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#save-the-run-dataset",
+    "href": "data/analysis/timely_effective/runs/run_003/notebooks/Run003_analysis.html#save-the-run-dataset",
+    "title": "Timely and effective care",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html",
+    "title": "Timely and effective care",
     "section": "",
-    "text": "American College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nFiltering for Zipcode:\nThe raw dataset care_raw_df has 4,405 zip codes with 173,304 facilities.\nAfter filtering, 158 zip codes with 6,264 facilities remain in the dataset care_df\nVariable exploration: Score\n\n\n\n\n\n\n\n\nScore\n\n\n\n\ncount\n3877.000000\n\n\nmean\n3385.893854\n\n\nstd\n17857.281487\n\n\nmin\n0.000000\n\n\n25%\n0.269000\n\n\n50%\n1.346000\n\n\n75%\n11.840000\n\n\nmax\n329722.000000\n\n\n\n\n\n\n\nExtremes of data\nLowest Values:\n[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\nHighest Values:\n[181596.0, 194569.0, 201314.0, 203229.0, 215520.0, 226034.0, 229620.0, 249798.0, 294771.0, 329722.0]\n\\(3 \\times IQR\\) Extremes for Score\n\nNum cases before outlier filter: 6,264\nIQR: 11.57 (11.84 - 0.27)\nOutliers: Score &lt; -34.44 OR Score &gt; 46.55\n\nCases after the outlier filter: 5,496 (Removed 768)",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#import-data",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#import-data",
+    "title": "Timely and effective care",
+    "section": "Import Data",
+    "text": "Import Data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#parameters",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#parameters",
+    "title": "Timely and effective care",
+    "section": "Parameters",
+    "text": "Parameters\n\nCaution: The run directory already exists for Run # 001 A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/timely_effective/runs/run_001/notebooks/",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#data-processing",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#data-processing",
+    "title": "Timely and effective care",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nData Sanitization\n\nFacility ID                     object\nFacility Name                   object\nCity/Town                       object\nState                           object\nZIP Code                         int64\nCounty/Parish                   object\nMeasure ID                      object\nMeasure Name                    object\nCompared to National            object\nScore                          float64\nFootnote                        object\nStart Date              datetime64[ns]\nEnd Date                datetime64[ns]\ndtype: object\n\n\n\nSubset the data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#variable-exploration-score",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#variable-exploration-score",
+    "title": "Timely and effective care",
+    "section": "Variable exploration: Score",
+    "text": "Variable exploration: Score\n\n\n\n\n\n\n\n\nScore\n\n\n\n\ncount\n3877.000000\n\n\nmean\n3385.893854\n\n\nstd\n17857.281487\n\n\nmin\n0.000000\n\n\n25%\n0.269000\n\n\n50%\n1.346000\n\n\n75%\n11.840000\n\n\nmax\n329722.000000\n\n\n\n\n\n\n\nExtremes of data\nLowest Values:\n[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\nHighest Values:\n[181596.0, 194569.0, 201314.0, 203229.0, 215520.0, 226034.0, 229620.0, 249798.0, 294771.0, 329722.0]",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#generate-figures-and-tables",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#generate-figures-and-tables",
+    "title": "Timely and effective care",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables\n\nRun 001 Details: Dates: 2022-07-01 - 2023-06-30 No. Zip Codes: 158\n\n\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/timely_effective/runs/run_001/figures//Run001_TE_City Count.jpg'",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#save-the-run-dataset",
+    "href": "data/analysis/timely_effective/runs/run_001/notebooks/Run001_analysis.html#save-the-run-dataset",
+    "title": "Timely and effective care",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/raw/cms/readme.html",
+    "href": "data/raw/cms/readme.html",
+    "title": "About the dataset: CMS Data Sources",
+    "section": "",
+    "text": "About the dataset: CMS Data Sources\nHealthcare_Associated_Infections-Hospital.csv:1\nTimely_and_Effective_Care-Hospital.csv:2\n\nReferences\n\n\n1. Centers for Medicare and Medicaid Services. Timely and effective care - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/yv7e-xc69#data-table\n\n\n2. Centers for Medicare and Medicaid Services. Healthcare associated infections - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/77hc-ibv8#data-table",
     "crumbs": [
       "Home",
       "Data",
       "Raw",
-      "Mbsa Qip",
-      "About the dataset: MBSA-QIP"
+      "Cms",
+      "About the dataset: CMS Data Sources"
     ]
   },
   {
@@ -32,7 +239,7 @@
     "href": "data/analysis/timely_effective/runs/run_001/readme.html",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "Generated: 2024-05-29\n\n\n\nZip Codes: 0 - 99999\n\n\n\n\n\nSubjects: 5,496\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun001_TE_Score_Dist.jpg\n\n\n\n\n\nRun001_TE_City Count.jpg\n\n\n\n\n\nThe following files were generated from Run 001:\n\nfigures/Run001_TE_Score_Dist.jpg\nfigures/Run001_TE_City Count.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv",
+    "text": "Generated: 2024-05-29\n\n\n\nZip Codes: 60002 - 62999\n\n\n\n\n\nSubjects: 5,496\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun001_TE_Score_Dist.jpg\n\n\n\n\n\nRun001_TE_City Count.jpg\n\n\n\n\n\nThe following files were generated from Run 001:\n\nnotebooks/Run001_analysis.ipynb\nfigures/Run001_TE_Score_Dist.jpg\nfigures/Run001_TE_City Count.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv",
     "crumbs": [
       "Home",
       "Data",
@@ -48,7 +255,7 @@
     "href": "data/analysis/timely_effective/runs/run_001/readme.html#run-parameters",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "Zip Codes: 0 - 99999",
+    "text": "Zip Codes: 60002 - 62999",
     "crumbs": [
       "Home",
       "Data",
@@ -96,7 +303,7 @@
     "href": "data/analysis/timely_effective/runs/run_001/readme.html#files",
     "title": "Run 001 Summary",
     "section": "",
-    "text": "The following files were generated from Run 001:\n\nfigures/Run001_TE_Score_Dist.jpg\nfigures/Run001_TE_City Count.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv",
+    "text": "The following files were generated from Run 001:\n\nnotebooks/Run001_analysis.ipynb\nfigures/Run001_TE_Score_Dist.jpg\nfigures/Run001_TE_City Count.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv",
     "crumbs": [
       "Home",
       "Data",
@@ -186,17 +393,230 @@
     ]
   },
   {
-    "objectID": "data/raw/cms/readme.html",
-    "href": "data/raw/cms/readme.html",
-    "title": "About the dataset: CMS Data Sources",
+    "objectID": "data/analysis/timely_effective/runs/run_002/readme.html",
+    "href": "data/analysis/timely_effective/runs/run_002/readme.html",
+    "title": "Run 002 Summary",
     "section": "",
-    "text": "About the dataset: CMS Data Sources\nHealthcare_Associated_Infections-Hospital.csv:1\nTimely_and_Effective_Care-Hospital.csv:2\n\nReferences\n\n\n1. Centers for Medicare and Medicaid Services. Timely and effective care - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/yv7e-xc69#data-table\n\n\n2. Centers for Medicare and Medicaid Services. Healthcare associated infections - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/77hc-ibv8#data-table",
+    "text": "Generated: 2024-05-29\n\n\n\nZip Codes: 60000 - 70001\n\n\n\n\n\nSubjects: 5,496\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun002_TE_Score_Dist.jpg\n\n\n\n\n\nRun002_TE_City Count.jpg\n\n\n\n\n\nThe following files were generated from Run 002:\n\nnotebooks/Run002_analysis.ipynb\nfigures/Run002_TE_Score_Dist.jpg\nfigures/Run002_TE_City Count.jpg\ntables/Run002_main_dataset.parquet\ntables/Run002_demo_selected.csv",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/readme.html#run-parameters",
+    "href": "data/analysis/timely_effective/runs/run_002/readme.html#run-parameters",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "Zip Codes: 60000 - 70001",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/readme.html#dataset",
+    "href": "data/analysis/timely_effective/runs/run_002/readme.html#dataset",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "Subjects: 5,496\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/readme.html#figures",
+    "href": "data/analysis/timely_effective/runs/run_002/readme.html#figures",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "Run002_TE_Score_Dist.jpg\n\n\n\n\n\nRun002_TE_City Count.jpg",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/readme.html#files",
+    "href": "data/analysis/timely_effective/runs/run_002/readme.html#files",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "The following files were generated from Run 002:\n\nnotebooks/Run002_analysis.ipynb\nfigures/Run002_TE_Score_Dist.jpg\nfigures/Run002_TE_City Count.jpg\ntables/Run002_main_dataset.parquet\ntables/Run002_demo_selected.csv",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/raw/mbsa-qip/readme.html",
+    "href": "data/raw/mbsa-qip/readme.html",
+    "title": "About the dataset: MBSA-QIP",
+    "section": "",
+    "text": "Metabolic and bariatric surgery accreditation and quality improvement program (MBSA-QIP) is a dataset available by request / application to the American College of Surgeons (ACS). You may request your own copy of the raw data by completing the ACS Form for the MBSAQIP Participant Use Data File (PUF).\nPlease note: This GitHub repository does not contain any raw data (PUF files provided by the ACS). This repository is a datalad dataset (repository) which is only tracking the presence of the data files and any modifications made by the authorized user, Pranav Mishra (Rush University), for the purpose of this seminar. No other use has access nor is permitted to have access without completing the PUF request form above. All raw data (PUF files) are accessible only to the authorized user on the university’s IT-approved infrastructure.\n\n\n\nAmerican College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
     "crumbs": [
       "Home",
       "Data",
       "Raw",
-      "Cms",
-      "About the dataset: CMS Data Sources"
+      "Mbsa Qip",
+      "About the dataset: MBSA-QIP"
+    ]
+  },
+  {
+    "objectID": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
+    "href": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
+    "title": "About the dataset: MBSA-QIP",
+    "section": "",
+    "text": "American College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Raw",
+      "Mbsa Qip",
+      "About the dataset: MBSA-QIP"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html",
+    "title": "Timely and effective care",
+    "section": "",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nFiltering for Zipcode:\nThe raw dataset care_raw_df has 4,405 zip codes with 173,304 facilities.\nAfter filtering, 158 zip codes with 6,264 facilities remain in the dataset care_df\nVariable exploration: Score\n\n\n\n\n\n\n\n\nScore\n\n\n\n\ncount\n3877.000000\n\n\nmean\n3385.893854\n\n\nstd\n17857.281487\n\n\nmin\n0.000000\n\n\n25%\n0.269000\n\n\n50%\n1.346000\n\n\n75%\n11.840000\n\n\nmax\n329722.000000\n\n\n\n\n\n\n\nExtremes of data\nLowest Values:\n[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\nHighest Values:\n[181596.0, 194569.0, 201314.0, 203229.0, 215520.0, 226034.0, 229620.0, 249798.0, 294771.0, 329722.0]\n\\(3 \\times IQR\\) Extremes for Score\n\nNum cases before outlier filter: 6,264\nIQR: 11.57 (11.84 - 0.27)\nOutliers: Score &lt; -34.44 OR Score &gt; 46.55\n\nCases after the outlier filter: 5,496 (Removed 768)",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#import-data",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#import-data",
+    "title": "Timely and effective care",
+    "section": "Import Data",
+    "text": "Import Data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#parameters",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#parameters",
+    "title": "Timely and effective care",
+    "section": "Parameters",
+    "text": "Parameters\n\nCaution: The run directory already exists for Run # 002 A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/timely_effective/runs/run_002/notebooks/",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#data-processing",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#data-processing",
+    "title": "Timely and effective care",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nData Sanitization\n\nFacility ID                     object\nFacility Name                   object\nCity/Town                       object\nState                           object\nZIP Code                         int64\nCounty/Parish                   object\nMeasure ID                      object\nMeasure Name                    object\nCompared to National            object\nScore                          float64\nFootnote                        object\nStart Date              datetime64[ns]\nEnd Date                datetime64[ns]\ndtype: object\n\n\n\nSubset the data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#variable-exploration-score",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#variable-exploration-score",
+    "title": "Timely and effective care",
+    "section": "Variable exploration: Score",
+    "text": "Variable exploration: Score\n\n\n\n\n\n\n\n\nScore\n\n\n\n\ncount\n3877.000000\n\n\nmean\n3385.893854\n\n\nstd\n17857.281487\n\n\nmin\n0.000000\n\n\n25%\n0.269000\n\n\n50%\n1.346000\n\n\n75%\n11.840000\n\n\nmax\n329722.000000\n\n\n\n\n\n\n\nExtremes of data\nLowest Values:\n[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\nHighest Values:\n[181596.0, 194569.0, 201314.0, 203229.0, 215520.0, 226034.0, 229620.0, 249798.0, 294771.0, 329722.0]",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#generate-figures-and-tables",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#generate-figures-and-tables",
+    "title": "Timely and effective care",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables\n\nRun 002 Details: Dates: 2022-07-01 - 2023-06-30 No. Zip Codes: 158\n\n\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/timely_effective/runs/run_002/figures//Run002_TE_City Count.jpg'",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
+    ]
+  },
+  {
+    "objectID": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#save-the-run-dataset",
+    "href": "data/analysis/timely_effective/runs/run_002/notebooks/Run002_analysis.html#save-the-run-dataset",
+    "title": "Timely and effective care",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Timely Effective",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Timely and effective care"
     ]
   }
 ]

@@ -8,7 +8,7 @@ Generated: 2024-05-29
 
 ## Run Parameters:
 
-- Zip Codes: `0 - 99999`
+- Zip Codes: `60002 - 62999`
 
 ## Dataset
 
@@ -28,6 +28,7 @@ Generated: 2024-05-29
 
 The following files were generated from Run 001:
 
+- notebooks/Run001_analysis.ipynb
 - figures/Run001_TE_Score_Dist.jpg
 - figures/Run001_TE_City Count.jpg
 - tables/Run001_main_dataset.parquet

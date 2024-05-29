@@ -1,0 +1,12 @@
+{
+  "hash": "687ea4096cc11c791472396d0302b2a0",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---  \ntitle: References\nsubtitle: \"Research Data Management Repository\"  \ndate: last-modified  \ndate-format: full  \nauthor:  \n  - name:  \n      given: Pranav Kumar  \n      family: Mishra  \n    affiliations:  \n      - ref: rushsurg  \n      - ref: rushortho  \n    corresponding: true  \n    url: https://drpranavmishra.com  \n    email: pranav_k_mishra@rush.edu  \n    orcid: 0000-0001-5219-6269    \n    role: \"Post Doctoral Research Fellow\"  \nformat:  \n  html:  \n    code-fold: true \n  gfm:\n    preview-mode: raw\n    \nexecute:   \n  enabled: true  \n  echo: false  \n  output: asis #true  \n---\n\n@wolf_scanpy_2018 @harris_redcap_2019 @american_college_of_surgeons_participant_2024 @american_college_of_surgeons_metabolic_2024 @litvinukova_cells_2020 @centers_for_medicare_and_medicaid_services_timely_2023 @centers_for_medicare_and_medicaid_services_healthcare_2023 \n\n\n### References\n\n::: {#refs}\n:::\n\n",
+    "supporting": [
+      "references_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

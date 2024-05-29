@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ./notebook/_site
+  output-dir: docs
   render:
     - "README.md"
     - "!/code/jupyter/redcap.ipynb"
@@ -33,6 +33,13 @@ csl: ./notebook/ama.csl
 
 citation: false
 google-scholar: true
+
+
+execute:
+  freeze: auto
+
+
+
 
 affiliations:
   - id: rushortho

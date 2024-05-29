@@ -8,9 +8,9 @@ metadata/objects/** annex.largefile=(anything)
 # Directories to exclude from git-annex
 #------------------------------------------------
 
-**/code
-**/doc
-**/deploy
+**/code annex.largefiles=nothing
+**/doc annex.largefiles=nothing
+**/deploy annex.largefiles=nothing
 
 # Filetypes to exclude from git-annex
 #------------------------------------------------
@@ -35,6 +35,11 @@ metadata/objects/** annex.largefile=(anything)
 
 # Include in git-annex
 #------------------------------------------------
+
+# Raw Data
+/data/raw annex.largefiles=((largerthan=0))
+/data/raw/**/*.md annex.largefiles=nothing
+/data/raw/**/*.csv annex.largefiles=nothing
 
 # Data files
 *.parquet annex.largefiles=((largerthan=0))

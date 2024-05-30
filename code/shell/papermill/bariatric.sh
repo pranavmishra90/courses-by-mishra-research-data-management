@@ -19,6 +19,8 @@ echo "Starting analysis for the MBSA-QIP Dataset"
 echo ""
 echo ""
 
+rm "./code/jupyter/papermill_tmp/bariatric_papermill.ipynb"
+
 papermill "./code/jupyter/bariatric_papermill.ipynb" "./code/jupyter/papermill_tmp/bariatric_papermill.ipynb"
 
 # Quarto

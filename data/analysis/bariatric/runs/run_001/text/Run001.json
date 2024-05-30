@@ -1,0 +1,28 @@
+{
+    "run_num": "001",
+    "CPT_filter": [
+        "43644"
+    ],
+    "year_start": 2018,
+    "year_stop": 2022,
+    "years": "[2018 2019 2020 2021 2022]",
+    "verbosity": true,
+    "repository_root": "/home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management",
+    "notebook_file": "./code/jupyter/bariatric.ipynb",
+    "image_filetypes_output": [
+        "jpg"
+    ],
+    "data_source_alpha": 0,
+    "watermark_text_alpha": 0,
+    "watermarks": true,
+    "errorbartype": [
+        "ci",
+        95
+    ],
+    "save_figures": true,
+    "table_filetypes_output": [
+        "parquet",
+        "csv"
+    ],
+    "save_tables": true
+}

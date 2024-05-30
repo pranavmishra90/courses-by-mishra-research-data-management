@@ -53,7 +53,11 @@ You can open each jupyter notebook file individually and see how the code runs. 
 ```sh
 conda activate researchdata
 
-datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs --explicit -m "Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
+# CMS Dataset
+datalad run --dry-run basic -i data/raw/cms -o data/analysis/timely_effective/runs -o notebook/ -m "CMS Analysis: Multiple runs via Datalad" 'code/shell/papermill/timely_effective.sh'
+
+# Raw data is not available on GitHub. It is available locally to Pranav
+datalad run --dry-run basic -i data/raw/mbsa-qip -o data/analysis/bariatric/runs -o notebook/ -m "Bariatric Analysis: Multiple runs via Datalad" 'code/shell/papermill/bariatric.sh'
 ```
 
 

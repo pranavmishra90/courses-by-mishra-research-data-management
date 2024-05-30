@@ -18,6 +18,8 @@ echo '----------------------------------'
 echo "Starting analysis for the Timely and Effective Care Hospital Dataset"
 echo ""
 
+rm "./code/jupyter/papermill_tmp/timely_effective.ipynb"
+
 papermill "./code/jupyter/timely_effective.ipynb" "./code/jupyter/papermill_tmp/timely_effective.ipynb"
 
 # Quarto

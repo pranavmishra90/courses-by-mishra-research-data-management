@@ -11,7 +11,6 @@ start_time=$(date +"%s")
 
 cd /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management
 
-
 # Papermill and Quarto
 #------------------------
 echo 'Started at ' $(date +"%F-%H-%M-%S")
@@ -32,12 +31,13 @@ echo "Rendering the notebook"
 echo ""
 quarto render .
 
-
-T="$(($(date +%s)-T))"
+T="$(($(date +%s) - T))"
 minutes=$((T / 60))
 
 echo '------------------------------------------------'
 echo 'Ended at ' $(date +"%F-%H-%M-%S")
-echo "It took ${minutes} minutes to complete" 
+echo "It took ${minutes} minutes to complete"
 echo ""
 echo "Done."
+
+

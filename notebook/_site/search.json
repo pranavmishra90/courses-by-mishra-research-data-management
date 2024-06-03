@@ -1,0 +1,553 @@
+[
+  {
+    "objectID": "data/output/publications/demo_paper.html",
+    "href": "data/output/publications/demo_paper.html",
+    "title": "Demo Bariatric Paper",
+    "section": "",
+    "text": "Introduction\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum placerat est, eget scelerisque erat placerat sed. Pellentesque fringilla ex sed nibh venenatis elementum. Sed a turpis lacinia, placerat ante bibendum, luctus arcu. Phasellus finibus sagittis lorem a lobortis. Vivamus mollis placerat sollicitudin. Pellentesque eleifend lorem vel semper aliquet. Aenean ut est sit amet nisl varius blandit. Phasellus nec dolor nunc. Sed sed tempor orci.\nFusce lorem lorem, maximus sed semper at, gravida in dolor. Vivamus in finibus metus, sit amet cursus mi. Fusce rhoncus metus vel lacus porttitor consequat. Etiam rhoncus tempor ultrices. Pellentesque sit amet nunc id ligula laoreet maximus quis ut libero. Nullam dictum mauris ac congue vehicula. Donec ultrices eu metus eget posuere. Quisque quis nisl tincidunt, rutrum elit in, pulvinar ex. Curabitur at ipsum tincidunt, sollicitudin massa vitae, viverra ante.\n\n\nMethodology\nIn this study, the authors examined a cohort of bariatric patients who had surgery between 2018 and 2022. Participant use files from the Metabolic and Bariatric Surgery Accreditation Quality Improvement Program (MBSAQIP) were first combined into one dataset.\nNext, we filtered the data, selecting for the following CPT Codes: 43644.\nNullam semper mi eu mi malesuada, et blandit mi convallis. Integer placerat est ipsum, sed rutrum magna convallis at. Maecenas eu mi ipsum. Praesent eu volutpat augue. Nulla tincidunt consequat dignissim. Etiam pretium, diam ac pharetra varius, lectus tortor bibendum felis, ac condimentum nibh ipsum nec lorem. Cras aliquam hendrerit diam, ac molestie enim bibendum a. Nam hendrerit eleifend elit, non ullamcorper enim finibus id. In a facilisis enim. Cras posuere, dui quis vestibulum luctus, sem eros condimentum augue, ac suscipit erat sapien non urna. Donec ut varius ex, non dignissim lorem. Cras sem magna, fermentum et arcu vel, accumsan placerat urna. Ut mattis lectus elit, a rhoncus tellus dapibus eu.\n\n\nResults\n\n\nDiscussion",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Output",
+      "Publications",
+      "Demo Bariatric Paper"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html",
+    "href": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html",
+    "title": "Bariatric Run Notebook",
+    "section": "",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 003 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/notebooks/ A text directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/text/\n{'run_num': '001',\n 'CPT_filter': ['43644'],\n 'year_start': 2018,\n 'year_stop': 2022,\n 'years': array([2018, 2019, 2020, 2021, 2022]),\n 'verbosity': True,\n 'repository_root': '/home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management',\n 'notebook_file': './code/jupyter/bariatric.ipynb',\n 'image_filetypes_output': ['jpg'],\n 'data_source_alpha': 0,\n 'watermark_text_alpha': 0,\n 'watermarks': True,\n 'errorbartype': ('ci', 95),\n 'save_figures': True,\n 'table_filetypes_output': ['parquet', 'csv'],\n 'save_tables': True}\nFiltering for CPT: ['43644', '43755']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#import-data",
+    "href": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#import-data",
+    "title": "Bariatric Run Notebook",
+    "section": "Import Data",
+    "text": "Import Data\n\n\nStatistics for Main dataframe\nThere are 1,021,936 cases with 245 variables (columns).",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#data-processing",
+    "href": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#data-processing",
+    "title": "Bariatric Run Notebook",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nSubset the data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#generate-figures-and-tables",
+    "href": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#generate-figures-and-tables",
+    "title": "Bariatric Run Notebook",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables\nAge\n\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/figures//demographics/Run003_Demographics-Donor_Sex.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/figures//demographics/Run003_Demographics-Race.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/figures//demographics/Run003_Demographics-Ethnicity.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_003/figures//surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg'",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#save-the-run-dataset",
+    "href": "data/analysis/bariatric/runs/run_003/notebooks/Run003_analysis.html#save-the-run-dataset",
+    "title": "Bariatric Run Notebook",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html",
+    "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html",
+    "title": "Bariatric Run Notebook",
+    "section": "",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 001 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/notebooks/ A text directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/text/\n{'run_num': '001',\n 'CPT_filter': ['43644'],\n 'year_start': 2018,\n 'year_stop': 2022,\n 'years': array([2018, 2019, 2020, 2021, 2022]),\n 'verbosity': True,\n 'repository_root': '/home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management',\n 'notebook_file': './code/jupyter/bariatric.ipynb',\n 'image_filetypes_output': ['jpg'],\n 'data_source_alpha': 0,\n 'watermark_text_alpha': 0,\n 'watermarks': True,\n 'errorbartype': ('ci', 95),\n 'save_figures': True,\n 'table_filetypes_output': ['parquet', 'csv'],\n 'save_tables': True}\nFiltering for CPT: ['43644']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#import-data",
+    "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#import-data",
+    "title": "Bariatric Run Notebook",
+    "section": "Import Data",
+    "text": "Import Data\n\n\nStatistics for Main dataframe\nThere are 1,021,936 cases with 245 variables (columns).",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#data-processing",
+    "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#data-processing",
+    "title": "Bariatric Run Notebook",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nSubset the data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#generate-figures-and-tables",
+    "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#generate-figures-and-tables",
+    "title": "Bariatric Run Notebook",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables\nAge\n\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures//demographics/Run001_Demographics-Donor_Sex.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures//demographics/Run001_Demographics-Race.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures//demographics/Run001_Demographics-Ethnicity.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_001/figures//surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg'",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#save-the-run-dataset",
+    "href": "data/analysis/bariatric/runs/run_001/notebooks/Run001_analysis.html#save-the-run-dataset",
+    "title": "Bariatric Run Notebook",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/raw/cms/readme.html",
+    "href": "data/raw/cms/readme.html",
+    "title": "About the dataset: CMS Data Sources",
+    "section": "",
+    "text": "About the dataset: CMS Data Sources\nHealthcare_Associated_Infections-Hospital.csv:1\nTimely_and_Effective_Care-Hospital.csv:2\n\nReferences\n\n\n1. Centers for Medicare and Medicaid Services. Timely and effective care - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/yv7e-xc69#data-table\n\n\n2. Centers for Medicare and Medicaid Services. Healthcare associated infections - hospital. Published 2023. Accessed May 29, 2024. https://data.cms.gov/provider-data/dataset/77hc-ibv8#data-table",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Raw",
+      "Cms",
+      "About the dataset: CMS Data Sources"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/readme.html",
+    "href": "data/analysis/bariatric/runs/run_002/readme.html",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644', '43755']\nYear Start: 2021\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun002_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun002_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun002_Demographics-Race.jpg\n\n\n\n\n\nRun002_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun002_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 002:\n\nreadme.md\nnotebooks/Run002_analysis.ipynb\nfigures/demographics/Run002_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run002_Demographics-Donor_Sex.jpg\nfigures/demographics/Run002_Demographics-Race.jpg\nfigures/demographics/Run002_Demographics-Ethnicity.jpg\nfigures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run002_main_dataset.parquet\ntables/Run002_demo_selected.csv\ntext/Run002.parameters\ntext/Run002.json",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/readme.html#run-parameters",
+    "href": "data/analysis/bariatric/runs/run_002/readme.html#run-parameters",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "CPT Codes: ['43644', '43755']\nYear Start: 2021\nYear Stop: 2022",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/readme.html#dataset",
+    "href": "data/analysis/bariatric/runs/run_002/readme.html#dataset",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "Subjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/readme.html#figures",
+    "href": "data/analysis/bariatric/runs/run_002/readme.html#figures",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "Run002_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun002_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun002_Demographics-Race.jpg\n\n\n\n\n\nRun002_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun002_Sx-OPLENGTH_PREVSURG.jpg",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/readme.html#files",
+    "href": "data/analysis/bariatric/runs/run_002/readme.html#files",
+    "title": "Run 002 Summary",
+    "section": "",
+    "text": "The following files were generated from Run 002:\n\nreadme.md\nnotebooks/Run002_analysis.ipynb\nfigures/demographics/Run002_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run002_Demographics-Donor_Sex.jpg\nfigures/demographics/Run002_Demographics-Race.jpg\nfigures/demographics/Run002_Demographics-Ethnicity.jpg\nfigures/surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run002_main_dataset.parquet\ntables/Run002_demo_selected.csv\ntext/Run002.parameters\ntext/Run002.json",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Run 002 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/readme.html",
+    "href": "data/analysis/bariatric/runs/run_001/readme.html",
+    "title": "Run 001 Summary",
+    "section": "",
+    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644']\nYear Start: 2021\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun001_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun001_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun001_Demographics-Race.jpg\n\n\n\n\n\nRun001_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun001_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 001:\n\nRun001.json\nreadme.md\nfigures/demographics/Run001_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run001_Demographics-Donor_Sex.jpg\nfigures/demographics/Run001_Demographics-Race.jpg\nfigures/demographics/Run001_Demographics-Ethnicity.jpg\nfigures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv\nnotebooks/Run001_analysis.ipynb\ntext/Run001.parameters\ntext/Run001.json",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Run 001 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/readme.html#run-parameters",
+    "href": "data/analysis/bariatric/runs/run_001/readme.html#run-parameters",
+    "title": "Run 001 Summary",
+    "section": "",
+    "text": "CPT Codes: ['43644']\nYear Start: 2021\nYear Stop: 2022",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Run 001 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/readme.html#dataset",
+    "href": "data/analysis/bariatric/runs/run_001/readme.html#dataset",
+    "title": "Run 001 Summary",
+    "section": "",
+    "text": "Subjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Run 001 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/readme.html#figures",
+    "href": "data/analysis/bariatric/runs/run_001/readme.html#figures",
+    "title": "Run 001 Summary",
+    "section": "",
+    "text": "Run001_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun001_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun001_Demographics-Race.jpg\n\n\n\n\n\nRun001_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun001_Sx-OPLENGTH_PREVSURG.jpg",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Run 001 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_001/readme.html#files",
+    "href": "data/analysis/bariatric/runs/run_001/readme.html#files",
+    "title": "Run 001 Summary",
+    "section": "",
+    "text": "The following files were generated from Run 001:\n\nRun001.json\nreadme.md\nfigures/demographics/Run001_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run001_Demographics-Donor_Sex.jpg\nfigures/demographics/Run001_Demographics-Race.jpg\nfigures/demographics/Run001_Demographics-Ethnicity.jpg\nfigures/surgery/Run001_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run001_main_dataset.parquet\ntables/Run001_demo_selected.csv\nnotebooks/Run001_analysis.ipynb\ntext/Run001.parameters\ntext/Run001.json",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 001",
+      "Run 001 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/readme.html",
+    "href": "data/analysis/bariatric/runs/run_003/readme.html",
+    "title": "Run 003 Summary",
+    "section": "",
+    "text": "Generated: 2024-05-29\n\n\n\nCPT Codes: ['43644', '43755']\nYear Start: 2018\nYear Stop: 2022\n\n\n\n\n\nSubjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects\n\n\n\n\n\n\n\nRun003_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun003_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun003_Demographics-Race.jpg\n\n\n\n\n\nRun003_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun003_Sx-OPLENGTH_PREVSURG.jpg\n\n\n\n\n\nThe following files were generated from Run 003:\n\nreadme.md\nnotebooks/Run003_analysis.ipynb\nfigures/demographics/Run003_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run003_Demographics-Donor_Sex.jpg\nfigures/demographics/Run003_Demographics-Race.jpg\nfigures/demographics/Run003_Demographics-Ethnicity.jpg\nfigures/surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run003_main_dataset.parquet\ntables/Run003_demo_selected.csv\ntext/Run003.parameters\ntext/Run003.json",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Run 003 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/readme.html#run-parameters",
+    "href": "data/analysis/bariatric/runs/run_003/readme.html#run-parameters",
+    "title": "Run 003 Summary",
+    "section": "",
+    "text": "CPT Codes: ['43644', '43755']\nYear Start: 2018\nYear Stop: 2022",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Run 003 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/readme.html#dataset",
+    "href": "data/analysis/bariatric/runs/run_003/readme.html#dataset",
+    "title": "Run 003 Summary",
+    "section": "",
+    "text": "Subjects: 269,926\nMain Dataset Parquet\nDemo CSV - Random 20 Subjects",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Run 003 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/readme.html#figures",
+    "href": "data/analysis/bariatric/runs/run_003/readme.html#figures",
+    "title": "Run 003 Summary",
+    "section": "",
+    "text": "Run003_Demographics_Age_at_Surgery.jpg\n\n\n\n\n\nRun003_Demographics-Donor_Sex.jpg\n\n\n\n\n\nRun003_Demographics-Race.jpg\n\n\n\n\n\nRun003_Demographics-Ethnicity.jpg\n\n\n\n\n\nRun003_Sx-OPLENGTH_PREVSURG.jpg",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Run 003 Summary"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_003/readme.html#files",
+    "href": "data/analysis/bariatric/runs/run_003/readme.html#files",
+    "title": "Run 003 Summary",
+    "section": "",
+    "text": "The following files were generated from Run 003:\n\nreadme.md\nnotebooks/Run003_analysis.ipynb\nfigures/demographics/Run003_Demographics_Age_at_Surgery.jpg\nfigures/demographics/Run003_Demographics-Donor_Sex.jpg\nfigures/demographics/Run003_Demographics-Race.jpg\nfigures/demographics/Run003_Demographics-Ethnicity.jpg\nfigures/surgery/Run003_Sx-OPLENGTH_PREVSURG.jpg\ntables/Run003_main_dataset.parquet\ntables/Run003_demo_selected.csv\ntext/Run003.parameters\ntext/Run003.json",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 003",
+      "Run 003 Summary"
+    ]
+  },
+  {
+    "objectID": "data/raw/mbsa-qip/readme.html",
+    "href": "data/raw/mbsa-qip/readme.html",
+    "title": "About the dataset: MBSA-QIP",
+    "section": "",
+    "text": "Metabolic and bariatric surgery accreditation and quality improvement program (MBSA-QIP) is a dataset available by request / application to the American College of Surgeons (ACS). You may request your own copy of the raw data by completing the ACS Form for the MBSAQIP Participant Use Data File (PUF).\nPlease note: This GitHub repository does not contain any raw data (PUF files provided by the ACS). This repository is a datalad dataset (repository) which is only tracking the presence of the data files and any modifications made by the authorized user, Pranav Mishra (Rush University), for the purpose of this seminar. No other use has access nor is permitted to have access without completing the PUF request form above. All raw data (PUF files) are accessible only to the authorized user on the university’s IT-approved infrastructure.\n\n\n\nAmerican College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Raw",
+      "Mbsa Qip",
+      "About the dataset: MBSA-QIP"
+    ]
+  },
+  {
+    "objectID": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
+    "href": "data/raw/mbsa-qip/readme.html#reference-and-disclosure",
+    "title": "About the dataset: MBSA-QIP",
+    "section": "",
+    "text": "American College of Surgeons. Participant Use Data File (PUF). ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/participant-use-data-file-puf/\nAmerican College of Surgeons. Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program. ACS. Published 2024. Accessed February 27, 2024. https://www.facs.org/quality-programs/accreditation-and-verification/metabolic-and-bariatric-surgery-accreditation-and-quality-improvement-program/\n\n\n\nThe American College of Surgeons Metabolic and Bariatric Surgery Accreditation and Quality Improvement Program and the centers participating in the ACS MBSAQIP are the source of the data used herein; they have not verified and are not responsible for the statistical validity of the data analysis or the conclusions derived by the authors.",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Raw",
+      "Mbsa Qip",
+      "About the dataset: MBSA-QIP"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html",
+    "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html",
+    "title": "Bariatric Run Notebook",
+    "section": "",
+    "text": "The computer’s name is pminformatics.rush.edu The current directory has been set to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management\nCaution: The run directory already exists for Run # 002 A figures directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures/ A tables directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/tables/ A notebook directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/notebooks/ A text directory is already present: /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/text/\n{'run_num': '001',\n 'CPT_filter': ['43644'],\n 'year_start': 2018,\n 'year_stop': 2022,\n 'years': array([2018, 2019, 2020, 2021, 2022]),\n 'verbosity': True,\n 'repository_root': '/home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management',\n 'notebook_file': './code/jupyter/bariatric.ipynb',\n 'image_filetypes_output': ['jpg'],\n 'data_source_alpha': 0,\n 'watermark_text_alpha': 0,\n 'watermarks': True,\n 'errorbartype': ('ci', 95),\n 'save_figures': True,\n 'table_filetypes_output': ['parquet', 'csv'],\n 'save_tables': True}\nFiltering for CPT: ['43644', '43755']\nThe total MBSA-QIP dataset mbsa_main_df has 1,021,936 cases.\nAfter filtering, 269,926 cases remain in the dataset mbsa_df",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#import-data",
+    "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#import-data",
+    "title": "Bariatric Run Notebook",
+    "section": "Import Data",
+    "text": "Import Data\n\n\nStatistics for Main dataframe\nThere are 1,021,936 cases with 245 variables (columns).",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#data-processing",
+    "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#data-processing",
+    "title": "Bariatric Run Notebook",
+    "section": "Data Processing",
+    "text": "Data Processing\n\nSubset the data",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#generate-figures-and-tables",
+    "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#generate-figures-and-tables",
+    "title": "Bariatric Run Notebook",
+    "section": "Generate Figures and Tables",
+    "text": "Generate Figures and Tables\nAge\n\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//demographics/Run002_Demographics-Donor_Sex.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//demographics/Run002_Demographics-Race.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//demographics/Run002_Demographics-Ethnicity.jpg'\n\n\n\n'Figure saved to /home/pranav/work/pranavmishra90/courses/by-mishra/research-data-management/data/analysis/bariatric/runs/run_002/figures//surgery/Run002_Sx-OPLENGTH_PREVSURG.jpg'",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  },
+  {
+    "objectID": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#save-the-run-dataset",
+    "href": "data/analysis/bariatric/runs/run_002/notebooks/Run002_analysis.html#save-the-run-dataset",
+    "title": "Bariatric Run Notebook",
+    "section": "Save the run dataset",
+    "text": "Save the run dataset",
+    "crumbs": [
+      "Home",
+      "Data",
+      "Analysis",
+      "Bariatric",
+      "Runs",
+      "Run 002",
+      "Notebooks",
+      "Bariatric Run Notebook"
+    ]
+  }
+]

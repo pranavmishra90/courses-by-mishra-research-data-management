@@ -37,7 +37,6 @@ google-scholar: true
 affiliations:
   - id: rushortho
     name: Dept of Orthopedic Surgery, Rush University
-    department: Orthopedic Surgery
     city: Chicago
     region: IL
     country: USA
@@ -46,7 +45,6 @@ affiliations:
     
   - id: rushsurg
     name: Dept of Surgery, Rush University
-    department: Surgery
     address: 1735 W Harrison St, Ste 563
     city: Chicago
     region: IL
@@ -56,7 +54,6 @@ affiliations:
 
   - id: rushpeds
     name: Dept of Pediatrics, Rush University
-    department: Pediatrics
     address: 1735 W Harrison St, Ste 563
     city: Chicago
     region: IL
@@ -82,14 +79,15 @@ format:
     default-image-extension: svg
     embed-resources: true
   pdf:
-    # pdf-engine: latexmk
     documentclass: scrartcl
     toc: true
+    toc-depth: 2
     code-fold: true
     papersize: letter
-    toc-depth: 2
     margin-left: 30mm
     margin-right: 30mm
     highlight-style: github
     colorlinks: true
     default-image-extension: png 
+
+pdf-engine: lualatex
